@@ -1,0 +1,27 @@
+.notifications-name-container {
+  height: 100px;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.notifications-photo-container {
+  margin-top: 16px;
+  padding-left: 8px;   
+}
+
+.photo-avatar {
+  height: 60px;
+}
+
+.notification-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.notification-text {
+  display: flex;
+}

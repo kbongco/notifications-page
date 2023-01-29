@@ -1,0 +1,24 @@
+.large-notifications-container {
+  height: 220px;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.notifications-photo-container {
+  margin-top: 16px;
+  padding-left: 8px;   
+}
+
+.large-notification-photo {
+  height: 60px;
+}
+
+.large-notification-message {
+  margin: 8px;
+  margin-bottom: 24px;
+  margin-right: 16px;
+}

@@ -1,0 +1,20 @@
+.notification-picture-container {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.notification-photo {
+  height: 60px;
+}
+
+.notification-picture-photo-container-chess {
+  display: flex;
+  justify-content: end;
+}
+
+.notification-chess {
+  height: 60px;
+}

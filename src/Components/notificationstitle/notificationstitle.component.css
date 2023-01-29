@@ -1,0 +1,36 @@
+* {
+font-family: 'Audiowide', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+.notifications {
+  margin: 16px;
+}
+
+.notifications-title-name {
+  display: flex;
+  justify-content:space-between;
+  
+}
+
+.mark-as-read {
+  color: hsl(219, 14%, 63%)
+}
+
+.notification-number {
+  display: flex;
+}
+
+.count-notifications {
+  margin: 8px;
+}
+
+.number-background {
+  display: flex;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  margin-top: 8px;
+  border-radius: 27%;
+  width: 30px;
+}
